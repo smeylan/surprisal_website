@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Surprisal B.V.</title>
+  <meta name="description" content="Surprisal B.V. — AI, natural language understanding, and machine learning consultancy in the Netherlands." />
+  <style>
+    :root {
+      --bg: #ffffff;
+      --fg: #111111;
+      --muted: #555555;
+      --rule: #e6e6e6;
+      --maxw: 860px;
+    }
+
+    * { box-sizing: border-box; }
+    html, body { height: 100%; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--fg);
+      line-height: 1.55;
+    }
+
+    .page {
+      min-height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    main {
+      flex: 1;
+      display: grid;
+      place-items: center;
+      padding: 56px 18px;
+    }
+
+    .card {
+      width: min(var(--maxw), 100%);
+      margin: 0 auto;
+      text-align: left;            /* left-align text inside */
+    }
+
+    .content {
+      max-width: 68ch;
+      margin: 0 auto;
+      text-align: justify;
+      text-justify: inter-word; /* helps in some browsers */
+      hyphens: auto;            /* nicer spacing, needs lang= on <html> */
+    }
+
+    p {
+      margin: 0 0 16px 0;
+      font-size: 18px;
+    }
+
+    .logo-wrap {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 24px;
+    }
+
+    /* If you use an <img>, this keeps it nicely sized */
+    .logo {
+      max-width: 260px;
+      width: 60vw;
+      height: auto;
+    }
+
+    /* If you prefer a placeholder box until you have a logo */
+    .logo-placeholder {
+      width: min(260px, 60vw);
+      height: 120px;
+      border: 2px dashed var(--rule);
+      border-radius: 12px;
+      display: grid;
+      place-items: center;
+      color: var(--muted);
+      font-size: 14px;
+      letter-spacing: 0.2px;
+    }
+
+
+    a {
+      color: inherit;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    footer {
+      border-top: 1px solid var(--rule);
+      padding: 18px;
+      text-align: center;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .kvc {
+      white-space: nowrap;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="page">
+    <main>
+      <div class="card">
+
+       <div class="logo-wrap">
+          
+        <img class="logo" src="surprisal_logo.png" alt="Surprisal B.V. logo" />
+      </div>
+
+      <div class="content">
+        <p>
+          <b>Surprisal B.V.</b> is a Netherlands-based tech consultancy focused on artificial intelligence, natural language understanding,
+          and machine learning applications for complex real-world problems. We specialize in large-scale multimodal data
+          acquisition, data pipeline design, and automated analysis and decision-making using large language models, large cognitive models,
+          and bespoke statistical models. While we deploy machine intelligence at scale, we maintain a healthy appreciation for institutional complexities and
+          human realities.
+        </p>
+
+        <p>
+          For more information or to discuss possible collaborations, contact
+          <a href="mailto:info@surprisal.bv">info@surprisal.nl</a>.
+        </p>
+      </div>
+
+    </div>
+    </main>
+
+    <footer>
+      <span class="kvc">KvK: <strong>99120569</strong></span>
+    </footer>
+  </div>
+</body>
+</html>
